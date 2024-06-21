@@ -64,6 +64,7 @@ article:hover img {
 
 article {
     position: relative;
+    cursor: pointer;
 }
 
 .card-container {
@@ -85,4 +86,8 @@ article {
 article:hover .card-container {
     bottom: 0;
     opacity: 0.7;
+}
+
+.about-text {
+    margin: 0 auto;
 }

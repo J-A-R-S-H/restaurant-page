@@ -1,5 +1,6 @@
 import homePage from "./homePage";
 import menuPage from "./menuPage";
+import aboutPage from "./aboutPage"
 import "./styles.css"
 
 
@@ -24,3 +25,9 @@ menuBtn.addEventListener("click", () => {
     mainDiv.replaceChildren()
     menuPage()
 })
+
+aboutBtn.addEventListener("click", () => {
+    mainDiv.replaceChildren()
+    aboutPage()
+})
+

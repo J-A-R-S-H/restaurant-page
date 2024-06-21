@@ -37,7 +37,6 @@ export default function menuPage() {
         const cardDescription = document.createElement("span");
         cardDescription.innerText = "Something about the card description";
         cardText.appendChild(cardDescription);
-
     }
 
 
